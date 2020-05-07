@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPCBehaviour : MonoBehaviour
 {
-    enum NPCState
+    public enum NPCState
     { 
         Idle, 
         Walking,
@@ -12,7 +12,7 @@ public class NPCBehaviour : MonoBehaviour
         ApproachHouse
     }
 
-    NPCState NPCActing;
+    public NPCState NPCActing;
     // Start is called before the first frame update
     void Start()
     {

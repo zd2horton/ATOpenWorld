@@ -12,11 +12,6 @@ public class NPCMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float redColour = Random.Range(0.0f, 1.0f);
-        float blueColour = Random.Range(0.0f, 1.0f);
-        float greenColour = Random.Range(0.0f, 1.0f);
-        GetComponent<Renderer>().material.color = new Color(redColour, blueColour, greenColour);
-
         navPath = new NavMeshPath();
     }
 

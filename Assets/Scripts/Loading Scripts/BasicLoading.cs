@@ -21,7 +21,7 @@ public class BasicLoading : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        JSONFolderLocation = Application.dataPath + "/JSONData/";
+        JSONFolderLocation = Application.dataPath + "/JSONData/TerrainFiles/";
 
         if (!Directory.Exists(JSONFolderLocation))
         {
